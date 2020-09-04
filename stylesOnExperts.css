@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(to bottom, rgb(218, 218, 218), white);
+    justify-self: center;
+    margin: 10px;
+    border: 5px solid black;
+}
+.full-page{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    margin: auto;
+
+}
+.titles{
+    text-align: center;
+}
+img{
+    width:200px;
+}
+h2 {
+    color:green;
+}
+.things-to-know{
+    padding: 10px;
+}

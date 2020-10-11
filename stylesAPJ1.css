@@ -24,16 +24,4 @@ body{
 }} */
 
 
-.brief
-{
-    border: solid 5px black;
-    /* margin: auto; */
-}
-.brief ul{
-    border: solid 5px red;
-    margin: 10px;
-}
-.content{
-    border: dashed 2px green;
     
-}

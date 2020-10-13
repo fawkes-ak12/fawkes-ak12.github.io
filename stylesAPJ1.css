@@ -1,15 +1,14 @@
-*{
-   list-style: none;
-}
+
 body{
     margin: 0px;
     padding: 0px;
-   
+    background-color: khaki;
     
 }
 .box0{
     
     display: block;
+    background-color: none;
 }
 .box1{
     display: flex;
@@ -27,5 +26,17 @@ body{
         display: block;
     }
 }
-
+.brief{
+    margin: 10px;
+    padding: 10px;
+    background-color: lavenderblush;
+}
+.content{
+    font-size: large;
+    
+}
+.content ul li{
+    padding: 20px;
+    list-style: none;
+}
     

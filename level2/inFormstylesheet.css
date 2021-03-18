@@ -1,0 +1,79 @@
+:root{
+    --purple: rgb(255, 0, 85);
+    --red: rgb(47, 0, 255);
+}
+html{
+    background-color: rgb(49, 49, 49);
+    /* background: linear-gradient(0deg,var(--purple),var(--red)); */
+    background-repeat: no-repeat;
+}
+body
+{
+    margin: 0px;
+    padding:0px;
+}
+header{
+    background-image: url("header\ image.jpg");
+    height: 300px;    
+    color: white;
+    margin: 0px;
+}
+
+header nav ul{
+   
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    list-style: none;
+}
+
+
+nav ul  {
+    background-color: peachpuff;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    
+    opacity: 70%;
+    margin: auto;
+    width: auto;
+    border-radius: 20px;
+    padding: 10px  0px 10px 0px;
+}
+
+.nav-pages li:hover{
+    padding: 5px 2px 5px 2px;
+    opacity: 100%;
+    background-color: rgb(255, 0, 0);
+    box-sizing: var(--purple);
+    box-shadow: rgb(43, 43, 43) 1px  2px; 
+    transition-duration: 0.3s;
+}
+
+header .latest-updates  {
+    list-style: none;
+    background-color: rgb(73, 73, 73); 
+    display: grid;  
+    padding: 2px;
+    position: relative;
+    bottom: -150px;
+}
+ header .latest-updates ul li{
+    grid-gap: 5px;
+    grid-template-columns: 20px repeat(10px);
+    grid-template-rows:  20px repeat(10px);
+ }
+
+h1{
+    background-color: rgba(83, 82, 82, 0.4);
+    margin:10px 0px 10px 0px;
+    text-indent: 60px;
+    padding: 20px 10px 20px 60px;
+    text-align: left;
+}
+
+section{
+    color: white;
+}
+

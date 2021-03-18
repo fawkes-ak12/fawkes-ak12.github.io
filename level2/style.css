@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0% 5%;
+}
+
+header {
+  font-family: 'Courier New', Courier, monospace;
+  color: azure;
+  background: #0051ff;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul {
+  background-color: #f3e5ab;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-decoration: none;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 10px;
+  margin: auto;
+  color: red;
+}
+
+header nav ul a:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: red;
+}
+
+header .logo {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+header .logo div {
+  padding: 10px 0px;
+}
+
+header .latest-updates ul {
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: (1fr)[auto];
+      grid-template-columns: repeat(auto, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+header .latest-updates ul li {
+  padding: 5px 10px;
+  list-style: none;
+}
+
+.section-one {
+  margin: 20px 0px;
+}
+
+.section-one h1 {
+  margin: 20px 0px;
+}
+/*# sourceMappingURL=style.css.map */

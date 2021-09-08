@@ -1,10 +1,11 @@
+/*
 :root{
     --purple: rgb(255, 0, 85);
     --red: rgb(47, 0, 255);
 }
 html{
     background-color: rgb(49, 49, 49);
-    /* background: linear-gradient(0deg,var(--purple),var(--red)); */
+    
     background-repeat: no-repeat;
 }
 body
@@ -76,4 +77,4 @@ h1{
 section{
     color: white;
 }
-
+*/
